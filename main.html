@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Varieties Portfolio</title>
+    <title>Apple Varieties</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Apple Varieties in Our Grocery Store</h1>
+    </header>
+
+    <main class="product__photo">
+        <div class="photo-container">
+            <div class="photo-main">
+                <img id="main-photo" src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Main Apple Image">
+            </div>
+            <div class="photo-album">
+                <ul>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple" data-color="green"></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple" data-color="yellow"></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple" data-color="orange"></li>
+                    <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple" data-color="red"></li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="details">
+            <div class="price">
+                <h2>Price: <span id="apple-price">$7.93</span></h2>
+            </div>
+
+            <div class="variant">
+                <h3>Varieties</h3>
+                <ul>
+                    <li>Green Apple</li>
+                    <li>Yellow Apple</li>
+                    <li>Orange Apple</li>
+                    <li>Red Apple</li>
+                </ul>
+            </div>
+
+            <div class="description">
+                <h3>BENEFITS</h3>
+                <p id="apple-benefits">
+                    Green apples are crisp and tangy, full of fiber, and great for digestion!
+                </p>
+            </div>
+
+            <button class="add-to-cart">ADD TO CART</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Grocery Store</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
