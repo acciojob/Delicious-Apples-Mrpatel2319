@@ -6,22 +6,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const images = {
         green: {
-            src: "green-apple.jpg",
+            src: "https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png",
             price: "$7.93",
             benefits: "Green apples are crisp and tangy, full of fiber, and great for digestion!"
         },
         yellow: {
-            src: "yellow-apple.jpg",
+            src: "https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png",
             price: "$8.49",
             benefits: "Yellow apples are sweet and juicy, perfect for snacks and desserts."
         },
         orange: {
-            src: "orange-apple.jpg",
+            src: "https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png",
             price: "$9.10",
             benefits: "Orange apples are rich in antioxidants and have a unique citrus flavor."
         },
         red: {
-            src: "red-apple.jpg",
+            src: "https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png",
             price: "$8.75",
             benefits: "Red apples are sweet and crunchy, great for boosting energy."
         }
